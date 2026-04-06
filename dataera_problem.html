@@ -1,0 +1,187 @@
+<table style="width: 570px; border-width: 1px; border-color: #c0c0c0; background-color: #e1e4e8; border-collapse: collapse; height: 632px;">
+	<tbody>
+		<tr>
+			<td style="width: 100%; border: 1px solid #c0c0c0;">
+				<table style="width: 566px; border-color: #c0c0c0; border-collapse: collapse; height: 641px; border-width: 0px;">
+					<tbody>
+						<tr>
+							<td style="width: 100%; border-image: initial; border-color: #c0c0c0;">
+								<!-- HEADER WITH LOGO -->
+								<table style="height: 90px; width: 550px; border-color: #000000; background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%); border-collapse: collapse; border-width: 0px; margin-left: auto; margin-right: auto; padding: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+									<tbody>
+										<tr>
+											<td style="width: 100%; border-color: #000000; text-align: center;">
+												<img src="https://raw.githubusercontent.com/tugcesi/datamon_monitoring/main/datamon_logo.png" alt="Datamon Logo" style="height: 50px; width: auto; max-width: 300px;"/>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<!-- ALERT SECTION -->
+								<table style="height: 323px; width: 550px; border-color: #000000; border-collapse: collapse; border-width: 0px; margin-left: auto; margin-right: auto;">
+									<tbody>
+										<tr>
+											<td style="width: 550px; background-color: #ffffff; border-color: #000000;">
+												<table style="width: 530px; border-color: #000000; background-color: #ffffff; border-collapse: collapse; border-width: 0px; margin-left: auto; margin-right: auto; height: 423px;">
+													<!-- ALERT HEADER -->
+													<tbody>
+														<tr style="height: 61px;">
+															<td style="width: 477px; text-align: center; background: linear-gradient(135deg, #1eaa60 0%, #16854d 100%); height: 61px; border-color: #000000; border-radius: 8px 8px 0 0;" colspan="2">
+																<p style="text-align: center; margin: 0; padding: 10px 0;">
+																	<span style="color: #ffffff; font-size: 10pt; font-family: Arial;">
+																		<strong>
+																			<span style="font-size: 18pt;">⚠️ Problem Started</span>
+																		</strong>
+																	</span>
+																</p>
+																<p style="text-align: center; margin: 0;">
+																	<span style="font-family: Arial;">
+																		<strong>
+																			<span style="font-size: 13pt;">
+																				<span style="color: #ffffff;">{TRIGGER.SEVERITY}: {TRIGGER.NAME}</span>
+																			</span>
+																		</strong>
+																	</span>
+																</p>
+															</td>
+														</tr>
+
+														<!-- SECTION HEADER -->
+														<tr style="height: 24px;">
+															<td style="width: 477px; text-align: center; background: linear-gradient(90deg, #5ccb8a 0%, #4db876 100%); height: 24px; border-color: #000000;" colspan="2">
+																<span style="font-size: 12pt; font-family: Arial;">
+																	<strong style="color: #ffffff; letter-spacing: 1px;">📋 TRIGGER INFORMATION</strong>
+																</span>
+															</td>
+														</tr>
+
+														<!-- TRIGGER DETAILS -->
+														<tr style="height: 217px; text-align: left;">
+															<td style="width: 165px; text-align: left; border-color: #cccccc; background-color: #fafafa; padding: 10px; border-right: 1px solid #e0e0e0;">
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Status:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Problem started:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Duration:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Severity:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Item Key:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Last Value:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Description:</span>
+																</p>
+															</td>
+															<td style="width: 358px; text-align: left; border-color: #cccccc; padding: 10px; background-color: #ffffff;">
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{TRIGGER.STATUS}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">at {EVENT.TIME} on {EVENT.DATE}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{EVENT.DURATION}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #d9534f;"><strong>{TRIGGER.SEVERITY}</strong></span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-size: 10pt; color: #333333;">{ITEM.KEY1}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-size: 10pt; color: #333333;">{ITEM.VALUE1}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-size: 10pt; color: #333333;">{TRIGGER.DESCRIPTION}</span>
+																</p>
+															</td>
+														</tr>
+
+														<!-- HOST SECTION HEADER -->
+														<tr style="height: 24px;">
+															<td style="width: 477px; background: linear-gradient(90deg, #5ccb8a 0%, #4db876 100%); text-align: center; height: 24px; border-color: #000000;" colspan="2">
+																<span style="font-size: 12pt; font-family: Arial;">
+																	<strong style="color: #ffffff; letter-spacing: 1px;">🖥️ HOST INFORMATION</strong>
+																</span>
+															</td>
+														</tr>
+
+														<!-- HOST DETAILS -->
+														<tr style="height: 128px; text-align: left;">
+															<td style="width: 165px; text-align: left; border-color: #cccccc; background-color: #fafafa; padding: 10px; border-right: 1px solid #e0e0e0;">
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Name:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Uptime:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">CPU:</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-family: Arial; font-weight: bold; color: #1eaa60; font-size: 10pt;">Memory:</span>
+																</p>
+															</td>
+															<td style="width: 358px; text-align: left; border-color: #cccccc; padding: 10px; background-color: #ffffff;">
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{HOST.NAME1} ({HOST.IP1})</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{{HOST.HOST}:system.uptime.last()}</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{{HOST.HOST}:system.cpu.util.last()}%</span>
+																</p>
+																<p style="text-align: left; margin: 8px 0;">
+																	<span style="font-size: 10pt; font-family: Arial; color: #333333;">{{HOST.HOST}:vm.memory.utilization.last()}%</span>
+																</p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<!-- FOOTER LOGO SECTION -->
+								<table style="height: 90px; width: 550px; border-color: #000000; border-collapse: collapse; border-width: 0px; margin-left: auto; margin-right: auto; background-color: #ffffff; padding: 15px 0;">
+									<tbody>
+										<tr>
+											<td style="width: 100%; text-align: center; border-color: #000000;">
+												<img src="https://raw.githubusercontent.com/tugcesi/datamon_monitoring/main/datamon_logo.png" alt="Datamon Logo" style="height: 40px; width: auto; opacity: 0.8;"/>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<!-- COPYRIGHT FOOTER -->
+								<table style="width: 550px; border-color: #000000; background: linear-gradient(135deg, #646d7e 0%, #5a606b 100%); border-collapse: collapse; height: 45px; border-width: 0px; margin-left: auto; margin-right: auto; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+									<tbody>
+										<tr>
+											<td style="width: 100%; text-align: center; border-color: #000000; padding: 12px 0;">
+												<span style="color: #ffffff; font-size: 9pt; font-family: Arial;">
+													<strong>Copyright© 2026 - Dataera Teknoloji Bilisim Cözümleri</strong>
+													<br/>
+													<span style="font-size: 8pt; opacity: 0.9;">Monitoring & Alert System</span>
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
